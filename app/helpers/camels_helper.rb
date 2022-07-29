@@ -1,0 +1,2 @@
+module CamelsHelper
+end
