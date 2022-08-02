@@ -1,0 +1,26 @@
+
+<%= form_with model: camel do |f| %>
+
+<div>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</div>
+
+<div>
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+</div>
+
+<div>
+  <%= f.label :color %>
+  <%= f.color_field :color %>
+</div>
+
+<div>
+  <%= f.label :message %><br>
+  <%= f.text_area :message, rows: '4', placeholder: 'Enter your message' %>
+</div>
+
+<%= f.submit 'Submit' %>
+
+<% end %>

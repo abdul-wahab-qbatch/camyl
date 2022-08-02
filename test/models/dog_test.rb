@@ -1,14 +1,16 @@
 # == Schema Information
 #
-# Table name: camels
+# Table name: dogs
 #
 #  id         :bigint           not null, primary key
-#  color      :string
-#  email      :string
-#  message    :text
-#  name       :text
+#  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class Camel < ApplicationRecord
+require "test_helper"
+
+class DogTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
 end

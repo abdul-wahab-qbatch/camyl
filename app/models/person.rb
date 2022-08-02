@@ -1,14 +1,11 @@
 # == Schema Information
 #
-# Table name: camels
+# Table name: people
 #
 #  id         :bigint           not null, primary key
-#  color      :string
-#  email      :string
-#  message    :text
-#  name       :text
+#  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class Camel < ApplicationRecord
+class Person < ApplicationRecord
 end

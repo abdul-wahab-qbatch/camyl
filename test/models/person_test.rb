@@ -1,14 +1,16 @@
 # == Schema Information
 #
-# Table name: camels
+# Table name: people
 #
 #  id         :bigint           not null, primary key
-#  color      :string
-#  email      :string
-#  message    :text
-#  name       :text
+#  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class Camel < ApplicationRecord
+require "test_helper"
+
+class PersonTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
 end
